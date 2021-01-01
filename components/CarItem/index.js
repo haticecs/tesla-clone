@@ -1,8 +1,8 @@
-import React from "react";
-import { View, Text, ImageBackground } from "react-native";
-import styles from "./styles";
+import React from 'react';
+import { View, Text, ImageBackground } from 'react-native';
+import styles from './styles';
 
-import StyledButton from ".././StyledButton";
+import StyledButton from '.././StyledButton';
 
 const CarItem = (props) => {
   const { name, tagline, taglineCTA, image } = props;
@@ -25,17 +25,17 @@ const CarItem = (props) => {
 
       <View style={styles.buttonsContainer}>
         <StyledButton
-          type="primary"
-          content="Custom Order"
+          type='primary'
+          content='Custom Order'
           onPress={() => {
-            console.warn("Custom Order button is pressed");
+            console.warn('Custom Order button is pressed');
           }}
         />
         <StyledButton
-          type="secondary"
-          content="EXISTING INVENTORY"
+          type='secondary'
+          content='EXISTING INVENTORY'
           onPress={() => {
-            console.warn("Existing Inventory button is pressed");
+            console.warn('Existing Inventory button is pressed');
           }}
         />
       </View>

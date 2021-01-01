@@ -1,35 +1,35 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
   carContainer: {
-    width: "100%", //to take full screen
-    height: "100%",
+    width: '100%', //to take full screen
+    height: '100%',
   },
   titleContainer: {
-    marginTop: "30%", //relatively below from the top
-    alignItems: "center",
+    marginTop: '30%', //relatively below from the top
+    alignItems: 'center',
   },
   title: {
     fontSize: 40,
-    fontWeight: "500",
+    fontWeight: '500',
   },
   subtitle: {
     fontSize: 18,
-    color: "#5c5e62",
+    color: '#5c5e62',
   },
   subtitleCTA: {
-    textDecorationLine: "underline",
+    textDecorationLine: 'underline',
   },
   image: {
-    width: "100%",
-    height: "100%",
-    resizeMode: "cover",
-    position: "absolute",
+    width: '100%',
+    height: '100%',
+    resizeMode: 'cover',
+    position: 'absolute',
   },
   buttonsContainer: {
-    position: "absolute",
+    position: 'absolute',
     bottom: 50,
-    width: "100%",
+    width: '100%',
   },
 });
 
