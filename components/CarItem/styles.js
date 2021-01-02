@@ -1,9 +1,9 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet, Dimensions } from 'react-native';
 
 const styles = StyleSheet.create({
   carContainer: {
     width: '100%', //to take full screen
-    height: '100%',
+    height: Dimensions.get('window').height,
   },
   titleContainer: {
     marginTop: '30%', //relatively below from the top
